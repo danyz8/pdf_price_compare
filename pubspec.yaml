@@ -1,0 +1,24 @@
+name: pdf_price_compare
+description: Compare Deku Deals PDF exports (USD vs MXN) on-device
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^6.2.0
+  path_provider: ^2.1.2
+  syncfusion_flutter_pdf: ^23.1.44
+  syncfusion_flutter_xlsio: ^23.1.44
+  csv: ^5.1.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
