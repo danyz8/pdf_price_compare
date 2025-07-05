@@ -1,19 +1,6 @@
-# Flutter/Dart/Pub related
 .dart_tool/
-.packages
-.flutter-plugins
-.flutter-plugins-dependencies
-.flutter-plugins
-.pub-cache/
 build/
-# IDEs
 .idea/
-*.iml
 .vscode/
-# Generated files
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
-ios/ServiceDefinitions.json
-android/local.properties
-# Keystore
+*.iml
 *.jks
